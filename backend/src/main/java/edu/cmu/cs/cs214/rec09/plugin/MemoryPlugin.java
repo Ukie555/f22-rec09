@@ -70,7 +70,6 @@ public class MemoryPlugin implements GamePlugin<Integer> {
     @Override
     public void onNewMove() {
         numberOfCardsSelected = 0;
-
     }
 
     private int boardPositionFor(int x, int y) {
